@@ -259,7 +259,7 @@ public class Main{
             clip.start();
             isPlaying = true;
             System.out.println("Playing: " + file.getName());
-            System.out.println("---------------Enjoy Listening--------------");
+            System.out.println("\n---------------Enjoy Listening--------------\n");
         } catch (UnsupportedAudioFileException | IOException | LineUnavailableException e) {
             e.printStackTrace();
         }
