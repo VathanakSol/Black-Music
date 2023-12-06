@@ -1,3 +1,5 @@
+package main;//Music can play with mp3
+
 import org.jaudiotagger.audio.AudioFile;
 import org.jaudiotagger.audio.AudioFileIO;
 import org.jaudiotagger.audio.exceptions.CannotReadException;
@@ -10,7 +12,7 @@ import java.io.IOException;
 
 public class music {
     public static void main(String[] args) {
-        File mp3File = new File("D:/M-Fatt - Empty ft. Tendo (Official Audio).wav");
+        File mp3File = new File("D:/M-Fatt - Empty ft. Tendo (Official Audio).mp3");
 
         try {
             System.out.println("Attempting to read the MP3 file...");

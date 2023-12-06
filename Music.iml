@@ -10,5 +10,6 @@
     <orderEntry type="library" name="jar_files" level="project" />
     <orderEntry type="library" name="jlayer-1.0.1" level="project" />
     <orderEntry type="library" name="jaudiotagger-2.2.3" level="project" />
+    <orderEntry type="library" name="jl1.0.1" level="project" />
   </component>
 </module>

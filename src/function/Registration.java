@@ -1,3 +1,5 @@
+package function;
+
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Scanner;
@@ -15,7 +17,7 @@ class User {
 
     @Override
     public String toString() {
-        return "User{" +
+        return "function.User{" +
                 "username='" + username + '\'' +
                 ", email='" + email + '\'' +
                 ", password='" + password + '\'' +
@@ -52,7 +54,7 @@ class RegistrationSystem {
         User newUser = new User(username, email, password);
         registeredUsers.put(username, newUser);
 
-        System.out.println("Registration successful for user: " + username);
+        System.out.println("function.Registration successful for user: " + username);
     }
 
     public void displayRegisteredUsers() {
@@ -63,7 +65,7 @@ class RegistrationSystem {
     }
 }
 
-public class myMusic {
+public class Registration {
     public static void main(String[] args) {
         RegistrationSystem registrationSystem = new RegistrationSystem();
         Scanner scanner = new Scanner(System.in);
